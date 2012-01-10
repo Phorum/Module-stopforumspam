@@ -1,0 +1,8 @@
+title: Stop Forum Spam
+desc: This module uses stopforumspam.com to check newly registered users against their database of known spammers
+version: 0.2
+author: Thomas Seifert <thomas@phorum.org>, Skye Nott <skye@F4.ca>
+url: http://www.mysnip-solutions.de/en/
+
+hook: lang|
+hook: before_register|phorum_mod_stopforumspam_before_register

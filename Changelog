@@ -1,0 +1,14 @@
+Changelog:
+----------
+
+2012-01-10 v0.2: Skye Nott
+                 - Renamed lang/en.php to lang/english.php
+                 - Changed default to check IP and email (those seem to get the best result)
+                 - Added new "force_generic" option to show less helpful message. I do not want
+                   spammers to get any hint as to why they are being blocked (eg many spammers have a pool of IPs to use)
+                 - Added new "freq_min" option for finer control over blocking threshold. All checked fields frequency is
+                   added, if it is above this score it's considered spammy. Use value 1 for maximum blocking (like v0.1)
+                 - Fixed duplicate "check_email" URL arg which was supposed to be check_username
+
+2011-11-28 v0.1: Thomas Seifert
+                 initial release.

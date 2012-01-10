@@ -1,0 +1,17 @@
+Module: @TITLE@
+
+@DESCRIPTION@
+
+Installation instructions:
+--------------------------
+
+- Unpack the archive;
+
+- Move the directory "@MODULE_ID@" to the directory "mods"
+  within your Phorum installation;
+
+- Login as administrator in Phorum's administrative interface and
+  go to the "Modules" section;
+
+- Enable the module "@TITLE@" and configure its settings.
+
