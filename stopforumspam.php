@@ -4,6 +4,7 @@ function phorum_mod_stopforumspam_before_register($userdata) {
     global $PHORUM;
 
     $apikey = $PHORUM['mod_stopforumspam']['apikey'];
+    $last_key = false;
     if(!empty($apikey)) {
         $baseurl = "http://www.stopforumspam.com/api?";
         $args=array();
